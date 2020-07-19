@@ -32,6 +32,13 @@
   animation-duration: 1s;
   animation-delay: .2s;
 }
+
+#landing p {
+  width: 36vw;
+  text-align: center;
+  line-height: 190%;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
