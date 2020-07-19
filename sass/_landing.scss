@@ -22,5 +22,13 @@
     animation-duration: 1.4s;
     animation-delay: .1s;
     animation-fill-mode: both;
+    h1{
+      font-size: px-to-rem(48px);
+      margin-bottom: px-to-rem(16px);
+  
+      animation-name: intro-header;
+      animation-duration: 1s;
+      animation-delay: .2s;
+    }
   }
   

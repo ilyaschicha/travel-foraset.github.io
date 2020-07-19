@@ -9,6 +9,29 @@
   position: fixed;
 }
 
+#landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  transition: all .4s;
+  position: relative;
+  z-index: 10;
+  animation-name: intro-content;
+  animation-duration: 1.4s;
+  animation-delay: .1s;
+  animation-fill-mode: both;
+}
+
+#landing h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation-name: intro-header;
+  animation-duration: 1s;
+  animation-delay: .2s;
+}
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
