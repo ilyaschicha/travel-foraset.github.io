@@ -11,6 +11,16 @@
   visibility: hidden;
 }
 
+#full-site {
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
