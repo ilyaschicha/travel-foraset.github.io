@@ -39,6 +39,14 @@
   line-height: 190%;
 }
 
+#landing button {
+  color: #425831;
+  margin-top: 0.875rem;
+  background-color: white;
+  border-radius: 4px;
+  padding: .6em 4.2em;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
