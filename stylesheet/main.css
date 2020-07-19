@@ -47,6 +47,10 @@
   padding: .6em 4.2em;
 }
 
+#landing button:hover {
+  opacity: .8;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
