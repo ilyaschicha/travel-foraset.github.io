@@ -84,5 +84,12 @@ $bg-color: rgba(227, 227, 227, .08);
       margin-bottom: px-to-rem(52px);
     }
 
+    input:not([type="submit"]) {
+      display: block;
+      background-color: transparent;
+      border-bottom: 1px solid rgba(255, 255, 255, .8);
+      margin: px-to-rem(50px) 0;
+      padding: 6px 18px;
+    }
   }
 }
