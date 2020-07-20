@@ -8,3 +8,11 @@ function entersite() {
     $("#full-site").css("max-height", "auto");
     $("#register-side-bar").css("transform", "translate(0)");
 }
+function openForm() {
+    $("#register-side-bar").css("transform", "translate(-350px)");
+    $("#register-side-bar").css("transition-delay", "0s");
+    $("#register-side-bar").css("z-index", "100");
+    $("#call-num").css("opacity", "0");
+    $("#reg").css("opacity", "0");
+}
+
