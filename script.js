@@ -8,6 +8,8 @@ function entersite() {
     $("#full-site").css("max-height", "auto");
     $("#register-side-bar").css("transform", "translate(0)");
 }
+
+$("#visible-section").mouseenter(function () { openForm(); });
 function openForm() {
     $("#register-side-bar").css("transform", "translate(-350px)");
     $("#register-side-bar").css("transition-delay", "0s");
