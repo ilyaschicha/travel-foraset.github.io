@@ -72,6 +72,11 @@
   padding-top: 20vh;
 }
 
+#register-side-bar #form-section h2 {
+  font-size: 1.875rem;
+  margin-bottom: 3.25rem;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;

@@ -79,5 +79,10 @@ $bg-color: rgba(227, 227, 227, .08);
     color: white;
     padding-top: 20vh;
 
+    h2 {
+      font-size: px-to-rem(30px);
+      margin-bottom: px-to-rem(52px);
+    }
+
   }
 }
