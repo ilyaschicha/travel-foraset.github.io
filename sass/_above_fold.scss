@@ -21,3 +21,12 @@
   left: 0;
 }
 
+#register-side-bar {
+  $side-bar-tans-time: .6s;
+  $side-bar-tans-delay: 1s;
+  width: $empty-width + $visible-width + $form-width;
+  display: flex;
+  position: absolute;
+  transition: all $side-bar-tans-time $side-bar-tans-delay;
+  transform: translateX(200px);
+
