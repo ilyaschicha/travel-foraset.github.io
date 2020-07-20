@@ -58,6 +58,11 @@
 #above-fold nav a:hover {
   opacity: .8;
 }
+
+#above-fold article {
+  margin-top: 6.5rem;
+}
+
 #register-side-bar {
   width: 170%;
   display: flex;
