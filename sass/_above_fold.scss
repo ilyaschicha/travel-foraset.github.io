@@ -29,6 +29,21 @@ $bg-color: rgba(227, 227, 227, .08);
   left: 0;
 }
 
+#above-fold {
+  position: relative;
+  z-index: 12;
+  color: white;
+  padding-left: 92px;
+  padding-top: 62px;
+  box-sizing: border-box;
+  width: $empty-width;
+  height: 100vh;
+  display: inline-block;
+  opacity: 0;
+  transition: all 1s .5s;
+
+}
+
 #register-side-bar {
   $side-bar-tans-time: .6s;
   $side-bar-tans-delay: 1s;
