@@ -30,3 +30,18 @@
   transition: all $side-bar-tans-time $side-bar-tans-delay;
   transform: translateX(200px);
 
+  #visible-section {
+    width: $visible-width;
+    height: 100vh;
+    background-color: $bg-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #b3b3b3;
+    font-size: px-to-rem(18px);
+    transition: opacity 1.4s;
+
+  }
+
+}
