@@ -73,6 +73,18 @@
   line-height: 200%;
 }
 
+#above-fold article button {
+  background-color: #404040;
+  color: #e8fff7;
+  padding: .8em 1.4em;
+  padding-right: 16em;
+  transition: opacity .2s;
+}
+
+#above-fold article button:hover {
+  opacity: .6;
+}
+
 #register-side-bar {
   width: 170%;
   display: flex;

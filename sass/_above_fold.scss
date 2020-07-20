@@ -80,6 +80,17 @@ $bg-color: rgba(227, 227, 227, .08);
       line-height: 200%;
     }
 
+    button {
+      background-color: #404040;
+      color: #e8fff7;
+      padding: .8em 1.4em;
+      padding-right: 16em;
+      transition: opacity .2s;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
   }
 }
 
