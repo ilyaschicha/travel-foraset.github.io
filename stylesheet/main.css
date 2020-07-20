@@ -21,6 +21,27 @@
   left: 0;
 }
 
+#above-fold {
+  position: relative;
+  z-index: 12;
+  color: white;
+  padding-left: 92px;
+  padding-top: 62px;
+  box-sizing: border-box;
+  width: 94%;
+  height: 100vh;
+  display: inline-block;
+  opacity: 0;
+  transition: all 1s .5s;
+}
+
+#above-fold nav {
+  display: inline-block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  padding-bottom: 1.125rem;
+  padding-right: 4.5rem;
+}
+
 #register-side-bar {
   width: 170%;
   display: flex;
