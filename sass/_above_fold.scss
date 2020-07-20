@@ -70,6 +70,10 @@ $bg-color: rgba(227, 227, 227, .08);
   article {
     margin-top: px-to-rem(104px);
 
+    h1 {
+      font-size: px-to-rem(36px);
+    }
+
   }
 }
 

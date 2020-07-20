@@ -63,6 +63,10 @@
   margin-top: 6.5rem;
 }
 
+#above-fold article h1 {
+  font-size: 2.25rem;
+}
+
 #register-side-bar {
   width: 170%;
   display: flex;
