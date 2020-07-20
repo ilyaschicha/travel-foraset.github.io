@@ -50,6 +50,11 @@ $bg-color: rgba(227, 227, 227, .08);
     padding-bottom: px-to-rem(18px);
     padding-right: px-to-rem(72px);
 
+    li {
+      display: inline-block;
+      padding: 0 px-to-rem(30px);
+    }
+
   }
 
 }
