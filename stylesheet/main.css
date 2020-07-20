@@ -29,6 +29,10 @@
   transform: translateX(200px);
 }
 
+#register-side-bar #empty-section {
+  width: 94%;
+  height: 100vh;
+}
 
 #register-side-bar #visible-section {
   width: 6%;
@@ -100,17 +104,17 @@
   transform: scale(1.1);
 }
 
-  #register-side-bar #form-section ::placeholder {
-    color: inherit;
-  }
+#register-side-bar #form-section ::placeholder {
+  color: inherit;
+}
 
-  #register-side-bar #form-section a {
-    color: #b29dff;
-  }
+#register-side-bar #form-section a {
+  color: #b29dff;
+}
 
-  #register-side-bar #form-section a:hover {
-    opacity: .7;
-  }
+#register-side-bar #form-section a:hover {
+  opacity: .7;
+}
 
 #bg {
   background-image: url("../images/bg.jpg");

@@ -38,6 +38,11 @@ $bg-color: rgba(227, 227, 227, .08);
   transition: all $side-bar-tans-time $side-bar-tans-delay;
   transform: translateX(200px);
 
+  #empty-section {
+    width: $empty-width;
+    height: 100vh;
+  }
+
   #visible-section {
     width: $visible-width;
     height: 100vh;
