@@ -71,4 +71,13 @@ $bg-color: rgba(227, 227, 227, .08);
     }
   }
 
+  #form-section {
+    background-color: $bg-color;
+    height: 100vh;
+    box-sizing: border-box;
+    width: $form-width;
+    color: white;
+    padding-top: 20vh;
+
+  }
 }

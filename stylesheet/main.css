@@ -63,6 +63,15 @@
   transition: opacity .6s;
 }
 
+#register-side-bar #form-section {
+  background-color: rgba(227, 227, 227, 0.08);
+  height: 100vh;
+  box-sizing: border-box;
+  width: 70%;
+  color: white;
+  padding-top: 20vh;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
