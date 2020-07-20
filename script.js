@@ -16,3 +16,9 @@ function openForm() {
     $("#reg").css("opacity", "0");
 }
 
+function closeForm() {
+    $("#register-side-bar").css("transform", "translate(0)");
+    $("#register-side-bar").css("z-index", "0");
+    $("#call-num").css("opacity", "1");
+    $("#reg").css("opacity", "1");
+}
