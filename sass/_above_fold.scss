@@ -74,6 +74,12 @@ $bg-color: rgba(227, 227, 227, .08);
       font-size: px-to-rem(36px);
     }
 
+    p {
+      margin: px-to-rem(48px) 0;
+      width: px-to-rem(640px);
+      line-height: 200%;
+    }
+
   }
 }
 
