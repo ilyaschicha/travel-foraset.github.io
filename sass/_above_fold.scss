@@ -50,6 +50,25 @@ $bg-color: rgba(227, 227, 227, .08);
     font-size: px-to-rem(18px);
     transition: opacity 1.4s;
 
+    span {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      margin: 8vh 0;
+      transition: opacity .6s;
+
+      i {
+        font-size: px-to-rem(24px);
+        margin-bottom: px-to-rem(14px);
+      }
+    }
+
+    h4 {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      text-transform: uppercase;
+      letter-spacing: opacity .6s;
+      transition: opacity .6s;
+    }
   }
 
 }
