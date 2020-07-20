@@ -51,6 +51,13 @@
   padding-left: 0;
 }
 
+#above-fold nav a {
+  transition: opacity .1s;
+}
+
+#above-fold nav a:hover {
+  opacity: .8;
+}
 #register-side-bar {
   width: 170%;
   display: flex;
