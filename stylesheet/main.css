@@ -85,6 +85,21 @@
   padding: 6px 18px;
 }
 
+#register-side-bar #form-section input[type="submit"] {
+  background-color: white;
+  color: #292929;
+  padding: .4em 5.4em;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 4.125rem;
+  transition: all .3s;
+}
+
+#register-side-bar #form-section input[type="submit"]:hover {
+  opacity: .8;
+  transform: scale(1.1);
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;

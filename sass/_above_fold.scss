@@ -91,5 +91,21 @@ $bg-color: rgba(227, 227, 227, .08);
       margin: px-to-rem(50px) 0;
       padding: 6px 18px;
     }
+
+    input[type="submit"] {
+      background-color: white;
+      color: #292929;
+      padding: .4em 5.4em;
+      border-radius: 4px;
+      margin-left: 8px;
+      margin-bottom: px-to-rem(66px);
+      transition: all .3s;
+
+      &:hover {
+        opacity: .8;
+        transform: scale(1.1);
+      }
+    }
+
   }
 }
