@@ -107,5 +107,12 @@ $bg-color: rgba(227, 227, 227, .08);
       }
     }
 
+    ::placeholder { color: inherit;}
+
+    a {
+      color: #b29dff;
+
+      &:hover {  opacity: .7;  }
+    }
   }
 }
