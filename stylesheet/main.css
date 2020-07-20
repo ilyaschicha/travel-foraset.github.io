@@ -29,6 +29,40 @@
   transform: translateX(200px);
 }
 
+
+#register-side-bar #visible-section {
+  width: 6%;
+  height: 100vh;
+  background-color: rgba(227, 227, 227, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #b3b3b3;
+  font-size: 1.125rem;
+  transition: opacity 1.4s;
+}
+
+#register-side-bar #visible-section span {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 8vh 0;
+  transition: opacity .6s;
+}
+
+#register-side-bar #visible-section span i {
+  font-size: 1.5rem;
+  margin-bottom: 0.875rem;
+}
+
+#register-side-bar #visible-section h4 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  letter-spacing: opacity .6s;
+  transition: opacity .6s;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
