@@ -2,5 +2,15 @@
     margin: px-to-rem(120px) 0;
     color: white;
   
+    h2 {
+      background-color: rgba(13, 13, 13, .52);
+      font-size: px-to-rem(36px);
+      width: max-content;
+      padding: px-to-rem(42px);
+      padding-left: px-to-rem(340px);
+      padding-right: px-to-rem(160px);
+      margin-bottom: px-to-rem(10px);
+    }
+  
   }
   
