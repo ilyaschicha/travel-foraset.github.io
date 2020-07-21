@@ -442,3 +442,9 @@ p, a, button, input {
   background-color: white;
 }
 
+#testimonials article {
+  position: relative;
+  z-index: 20;
+  padding: 6.75rem 0 4.75rem;
+  text-align: center;
+}
