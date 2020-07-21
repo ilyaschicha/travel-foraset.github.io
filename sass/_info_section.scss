@@ -1,5 +1,10 @@
 #info-section{
     color: #cfcfcf;
     margin: px-to-rem(82px);
+    article{
+      display: flex;
+      align-items: center;
+      margin: px-to-rem(32px);
+      }
   }
   

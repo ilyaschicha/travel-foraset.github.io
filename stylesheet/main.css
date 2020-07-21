@@ -3,6 +3,12 @@
   margin: 5.125rem;
 }
 
+#info-section article {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
 #dimmed-bg {
   height: 100vh;
   width: 100%;
