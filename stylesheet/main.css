@@ -553,3 +553,9 @@ p, a, button, input {
   margin-bottom: 0.625rem;
 }
 
+#weekly-deal #deal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
