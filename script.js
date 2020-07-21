@@ -10,6 +10,9 @@ function entersite() {
 }
 
 $("#visible-section").mouseenter(function () { openForm(); });
+$("#empty-section").mouseenter(function () { closeForm(); });
+$("#form-section").mouseleave(function () { closeForm(); });
+
 function openForm() {
     $("#register-side-bar").css("transform", "translate(-350px)");
     $("#register-side-bar").css("transition-delay", "0s");
