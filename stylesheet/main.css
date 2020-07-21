@@ -278,6 +278,10 @@
   margin: 0.5rem 0;
 }
 
+#footer #social-icon {
+  padding: 2.25rem;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
