@@ -334,6 +334,20 @@
   opacity: .7;
 }
 
+#location input {
+  background-color: transparent;
+  width: 18.75rem;
+  padding: 0 1.125rem 0.625rem;
+  display: block;
+  text-align: center;
+  margin: 4.5rem auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+#location ::placeholder {
+  color: #d3d3d3;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }

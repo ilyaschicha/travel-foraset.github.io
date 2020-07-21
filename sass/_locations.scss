@@ -16,4 +16,16 @@
 			opacity: .7;
 		}
 	}
+	input{
+		background-color: transparent;
+		width: px-to-rem(300px);
+		padding: 0 px-to-rem(18px) px-to-rem(10px);
+		display: block;
+		text-align: center;
+		margin: px-to-rem(72px) auto;
+		border-bottom: 1px solid $faint-white;
+	}
+	::placeholder{
+		color: #d3d3d3;
+	}
 }
