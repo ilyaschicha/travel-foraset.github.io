@@ -537,3 +537,9 @@ p, a, button, input {
 #testimonials article a:hover {
   opacity: .7;
 }
+
+#weekly-deal {
+  margin: 7.5rem 0;
+  color: white;
+}
+
