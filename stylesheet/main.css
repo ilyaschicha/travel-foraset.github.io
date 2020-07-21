@@ -406,3 +406,20 @@ a {
 p, a, button, input {
   font-size: 1.125rem;
 }
+
+#testimonials {
+  background: rgba(227, 227, 227, 0.08);
+  margin: 12.5rem 0;
+  position: relative;
+}
+
+#testimonials::before, #testimonials::after {
+  content: "";
+  height: 12vh;
+  background-color: rgba(227, 227, 227, 0.08);
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  border-right: 70vw solid white;
+}
+

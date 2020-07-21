@@ -4,5 +4,15 @@
     margin: px-to-rem(200px) 0;
     position: relative;
   
+    &::before, &::after {
+      content: "";
+      height: 12vh;
+      background-color: $bg-color;
+      position: absolute;
+      width: 100%;
+      box-sizing: border-box;
+      border-right: $width-size solid white;
+    }
+  
   }
   
