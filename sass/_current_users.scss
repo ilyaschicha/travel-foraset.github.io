@@ -8,5 +8,12 @@
     h3, h4{
       text-align: center;
     }
+    h4{
+      font-size: px-to-rem(36px);
+    }
+    h3{
+      font-size: px-to-rem(72px);
+      margin-top: px-to-rem(12px);
+    }
   }
   
