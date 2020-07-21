@@ -53,6 +53,14 @@
           color: $color;
         }
       }
+  
+      #reviews {
+        display: flex;
+        color: white;
+        margin: px-to-rem(32px) px-to-rem(24px);
+  
+      }
+  
     }
   }
   
