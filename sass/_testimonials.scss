@@ -64,7 +64,30 @@
           margin: 0 px-to-rem(18px);
           padding: px-to-rem(24px);
   
-      }
+          .review-details {
+            display: flex;
+            align-items: center;
+            figure {
+              border-radius: 50%;
+              background-size: cover;
+              height: px-to-rem(100px);
+              width: px-to-rem(100px);
+            }
+            .details {
+              margin-left: px-to-rem(18px);
+              letter-spacing: 1px;
+              .name {
+                font-size: px-to-rem(18px);
+                text-transform: uppercase;
+                margin-bottom: px-to-rem(6px);
+              }
+              .from {
+                font-size: px-to-rem(14px);
+                text-align: left;
+              }
+            }
+  
+          }
   
         }
     }
