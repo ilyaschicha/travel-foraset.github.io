@@ -33,4 +33,11 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
+	ul{
+		width: 60%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: px-to-rem(18px) auto;
+	}
 }

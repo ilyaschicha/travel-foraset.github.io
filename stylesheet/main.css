@@ -354,6 +354,14 @@
   letter-spacing: 1px;
 }
 
+#location ul {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.125rem auto;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
