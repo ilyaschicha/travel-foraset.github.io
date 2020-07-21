@@ -582,3 +582,15 @@ p, a, button, input {
   opacity: .6;
 }
 
+#weekly-deal #deal figure {
+  background-image: url("../images/greece.jpg");
+  background-size: cover;
+  height: 576px;
+  width: 44%;
+  box-shadow: -4px 4px 14px 3px rgba(80, 80, 80, 0.44);
+  transition: all .5s;
+}
+
+#weekly-deal #deal figure:hover {
+  transform: scale(1.06);
+}
