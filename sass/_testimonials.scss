@@ -59,8 +59,14 @@
         color: white;
         margin: px-to-rem(32px) px-to-rem(24px);
   
+        .review {
+          background-color: $color;
+          margin: 0 px-to-rem(18px);
+          padding: px-to-rem(24px);
+  
       }
   
+        }
     }
   }
   
