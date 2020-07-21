@@ -504,3 +504,10 @@ p, a, button, input {
   text-align: left;
 }
 
+#testimonials article #reviews .review .review-text {
+  font-size: 1rem;
+  margin-top: 0.875rem;
+  text-align: left;
+  line-height: 240%;
+}
+

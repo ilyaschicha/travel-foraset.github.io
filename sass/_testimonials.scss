@@ -89,6 +89,13 @@
   
           }
   
+          .review-text {
+            font-size: px-to-rem(16px);
+            margin-top: px-to-rem(14px);
+            text-align: left;
+            line-height: 240%;
+          }
+        }
         }
     }
   }
