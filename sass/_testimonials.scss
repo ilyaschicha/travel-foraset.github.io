@@ -23,5 +23,13 @@
       clip-path: polygon(0 0, 0 100%, 100% 0);
       top: 100%
     }
+    #testimonials-bg {
+      position: absolute;
+      width: $width-size;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background-color: white;
+    }
   }
   

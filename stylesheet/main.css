@@ -433,3 +433,12 @@ p, a, button, input {
   top: 100%;
 }
 
+#testimonials #testimonials-bg {
+  position: absolute;
+  width: 70vw;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+
