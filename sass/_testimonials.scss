@@ -38,6 +38,21 @@
       z-index: 20;
       padding: px-to-rem(108px) 0 px-to-rem(76px);
       text-align: center;
+  
+      h2 {
+        text-transform: uppercase;
+        font-size: px-to-rem(36px);
+        margin-bottom: px-to-rem(24px);
+      }
+  
+      h5 {
+        font-size: px-to-rem(24px);
+  
+        span {
+          font-size: px-to-rem(36px);
+          color: $color;
+        }
+      }
     }
   }
   
