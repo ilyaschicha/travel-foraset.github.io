@@ -273,6 +273,11 @@
   margin: 1.875rem 0;
 }
 
+#footer h6 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
