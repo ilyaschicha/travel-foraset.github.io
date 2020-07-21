@@ -49,6 +49,11 @@
   background-image: url("../images/info-3.jpg");
 }
 
+#info-section article:nth-of-type(2) {
+  position: relative;
+  left: 60px;
+}
+
 #dimmed-bg {
   height: 100vh;
   width: 100%;
