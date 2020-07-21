@@ -423,3 +423,13 @@ p, a, button, input {
   border-right: 70vw solid white;
 }
 
+#testimonials::before {
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  bottom: 100%;
+}
+
+#testimonials::after {
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+  top: 100%;
+}
+
