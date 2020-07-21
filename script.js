@@ -27,3 +27,37 @@ function closeForm() {
     $("#call-num").css("opacity", "1");
     $("#reg").css("opacity", "1");
 }
+
+
+(function manageTotalUsers() {
+
+    // getRandom take tow nembers and make and return random nember between them 
+    function getRandom(min, max) {
+        return Math.floor(Math.random() * (max, min) + min);
+    }
+
+    // addComma get the nember and return nember with comma after the 3 digit 
+    function addComma(num) {
+        return num.slice(0, 3) + "," + num.slice(3, 6);
+    }
+    /**
+     * this function add 1 user and delay to the next adding
+     * @param {string} currentValue 
+     */
+    function addToTotalUsere(currentValue) {
+        let num = Number(currentValue.replace(",", ""));
+        num++;
+        num = String(num);
+        num = addComma(num);
+        $("#total-users").html(num);
+        setTimeout(function () {
+            addToTotalUsere(num);
+        }, getRandom(500, 5000));
+    }
+
+    let totalUsers = String(getRandom(100000, 200000));
+    totalUsers = addComma(totalUsers);
+
+    addToTotalUsere(totalUsers);
+
+})();  
