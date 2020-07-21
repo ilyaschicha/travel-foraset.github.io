@@ -17,6 +17,26 @@
       align-items: center;
       justify-content: space-around;
   
+      #deal-details {
+        width: 30%;
+        padding-left: px-to-rem(180px);
+  
+        h3 {
+          font-size: px-to-rem(36px);
+        }
+        p {
+          font-size: px-to-rem(16px);
+          line-height: 180%;
+          margin: px-to-rem(20px) 0 px-to-rem(32px);
+        }
+        a {
+          text-decoration: underline;
+  
+          &:hover {
+            opacity: .6;
+          }
+        }
+      }
     }
   }
   

@@ -559,3 +559,26 @@ p, a, button, input {
   justify-content: space-around;
 }
 
+#weekly-deal #deal #deal-details {
+  width: 30%;
+  padding-left: 11.25rem;
+}
+
+#weekly-deal #deal #deal-details h3 {
+  font-size: 2.25rem;
+}
+
+#weekly-deal #deal #deal-details p {
+  font-size: 1rem;
+  line-height: 180%;
+  margin: 1.25rem 0 2rem;
+}
+
+#weekly-deal #deal #deal-details a {
+  text-decoration: underline;
+}
+
+#weekly-deal #deal #deal-details a:hover {
+  opacity: .6;
+}
+
