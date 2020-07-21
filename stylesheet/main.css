@@ -236,6 +236,15 @@
   opacity: .7;
 }
 
+#current-users {
+  width: 60%;
+  color: white;
+  margin: 12rem auto;
+  padding: 1.375rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.38);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+}
+
 #bg {
   background-image: url("../images/bg.jpg");
   background-size: cover;
