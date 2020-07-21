@@ -18,7 +18,16 @@
       }
       div{
         margin-left: px-to-rem(82px);
-      }
+        h2{
+          font-size: px-to-rem(30px);
+          margin-bottom: px-to-rem(8px);
+        }
+        p{
+          font-size: px-to-rem(16px);
+          width: 70%;
+          line-height: 220%;
+        }
       }
     }
+  }
   
