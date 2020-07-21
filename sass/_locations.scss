@@ -40,4 +40,11 @@
 		justify-content: center;
 		margin: px-to-rem(18px) auto;
 	}
+	li{
+		color: rgba(255, 255, 255, .7);
+		font-size: px-to-rem(18px);
+		list-style: none;
+		padding: px-to-rem(18px) px-to-rem(58px);
+		a{ cursor: pointer; }
+	}
 }

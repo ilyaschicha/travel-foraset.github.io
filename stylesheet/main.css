@@ -362,6 +362,17 @@
   margin: 1.125rem auto;
 }
 
+#location li {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.125rem;
+  list-style: none;
+  padding: 1.125rem 3.625rem;
+}
+
+#location li a {
+  cursor: pointer;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
