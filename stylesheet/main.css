@@ -311,6 +311,12 @@
   opacity: .8;
 }
 
+#location {
+  margin: 7.5rem 0;
+  text-align: center;
+  color: white;
+}
+
 body, button, input {
   font-family: "Questrial", sans-serif;
 }
