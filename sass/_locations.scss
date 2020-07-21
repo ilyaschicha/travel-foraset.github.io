@@ -6,4 +6,14 @@
 		font-size: px-to-rem(36px);
 		text-transform: uppercase;
 	}
+	#header-link{
+		font-size: px-to-rem(28px);
+		display: block;
+		color: #8a8a8a;
+		text-decoration: underline;
+		margin: px-to-rem(8px) 0 px-to-rem(22px);
+		&:hover{
+			opacity: .7;
+		}
+	}
 }
